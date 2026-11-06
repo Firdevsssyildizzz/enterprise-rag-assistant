@@ -1,0 +1,33 @@
+
+# Python sanal ortamı
+.venv/
+venv/
+
+# Python gecici dosyalari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Yerel ChromaDB veritabani
+chroma_db/
+
+# Yuklenen PDF belgeleri
+documents/
+*.pdf
+
+# Ortam degiskenleri ve gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# IDE ve isletim sistemi dosyalari
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test ve onbellek dosyalari
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
